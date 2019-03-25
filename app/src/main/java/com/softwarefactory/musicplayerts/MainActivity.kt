@@ -59,7 +59,7 @@ class MainActivity : Activity() {
         tx3 = findViewById<View>(R.id.textView4) as TextView
         tx3!!.text = "Song.mp3"
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.gameon)
+        mediaPlayer = MediaPlayer.create(this, R.raw.aa)
         seekbar = findViewById<View>(R.id.seekBar) as SeekBar
         seekbar!!.isClickable = true
         seekbar!!.setOnSeekBarChangeListener(object :SeekBar.OnSeekBarChangeListener{
